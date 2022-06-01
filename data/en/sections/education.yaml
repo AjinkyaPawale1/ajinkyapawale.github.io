@@ -1,0 +1,114 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Masters' in Data Science
+  icon: fa-graduation-cap
+  timeframe: 2021-2022
+  institution:
+    name: Indiana University Bloominton
+    url: "https://www.indiana.edu/about/index.html"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.7
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    collapseAfter: 3
+    courses:
+    - name: Applied Machine Learning
+      achieved: 3.75
+      outOf: 4
+    - name: Artificial Intelligence
+      achieved: 3.80
+      outOf: 4
+    - name: Introduction to Statistics
+      achieved: 3.5
+      outOf: 4
+    - name: Deep Learning Systems
+      achieved: 3.75
+      outOf: 4
+    - name: Exploratory Data Analysis
+      achieved: 3.75
+      outOf: 4
+    - name: Management and Access of Big Data
+      achieved: 3.75
+      outOf: 4
+    - name: Explainable Artificial Intelligence
+      achieved: 3.75
+      outOf: 4
+    - name: Social Media Mining
+      achieved: 3.75
+      outOf: 4
+    - name: Advance Database Concepts
+      achieved: 3.75
+      outOf: 4
+
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+
+- name: Bachelors' in Computer Science Engineering
+  icon: fa-university
+  timeframe: 2015-2019
+  institution:
+    name: Mumbai University
+    url: "https://vesit.ves.ac.in"
+  grade: #(optional)
+    scale: GPA
+    achieved: 8.6
+    outOf: 10
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    collapseAfter: 3
+    courses:
+    - name: Machine Learning
+      achieved: 3.75
+      outOf: 4
+    - name: Data Warehouse & Mining
+      achieved: 3.80
+      outOf: 4
+    - name: Database Management
+      achieved: 3.5
+      outOf: 4
+    - name: Distributed Database
+      achieved: 3.75
+      outOf: 4
+    - name: Object-Oriented Programming
+      achieved: 3.75
+      outOf: 4
+    - name: Data Structures
+      achieved: 3.75
+      outOf: 4
+    - name: Analysis of Algorithms
+      achieved: 3.75
+      outOf: 4
+    - name: Software Engineering
+      achieved: 3.75
+      outOf: 4
+    - name: Web Technology
+      achieved: 3.75
+      outOf: 4
+    - name: Operating Systems
+      achieved: 3.75
+      outOf: 4
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.

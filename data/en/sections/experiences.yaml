@@ -1,0 +1,56 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Indiana University
+    url: "https://www.indiana.edu"
+    location: Bloomington
+    # company overview
+    overview: Together, faculty and students are taking on the world’s biggest challenges, enhancing lives, building the Hoosier economy, and strengthening communities across Indiana and the world.
+  positions:
+  - designation: Research Assistant
+    start: June 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Collected data from 4 different data sources and analyzed the student participation in course discussion threads along with academic participation of around 200 students.
+    - Reduced the manual analysis time of course participation by 80% through the statistical analysis of huge course data.
+    - Discovered insights by applying statistical analysis, dimension reduction, variable re-identification, and synthetic data generation. Used NLP techniques to study the semantics and perform topic modelling on huge university data consisting of 100,000 data points.
+    - Built an Artificial Neural Network using Tensor Flow to identify the student’s probability of retention based on their library use.
+- company:
+    name: Course5 Intelligence
+    url: "https://www.course5i.com"
+    location: Mumbai
+    overview: Pure-play data analytics and insights company with a focus on helping organizations drive digital transformation using artificial intelligence (AI), advanced analytics, and insights.
+  positions:
+  - designation: Data Engineer
+    start: December 2019
+    end: December 2020
+    responsibilities:
+    - Robotic Process Automation for an e-commerce website, setting prices and promotions, and other manual time-consuming processes/enablement on both websites, desktop apps, and different portals.
+    - Undertook an entire process for automated product inventory update and health checks for the website using Java and Selenium, providing end-to-end solutions and possible ways to optimize the process.
+    - Formulated real-time solutions for migrating production database from an archaic wireframe to Google Big Query.
+    - Repared interactive visualizations on 20+ dashboards in Google Data Studio for seamless engagement of clients.
+- company:
+    name: Mindchamp
+    url: "https://www.mindchamp.in"
+    location: Mumbai
+    overview: At MindChamp, aim is to promote STEM learning and 21st century skills in school students at an early age in a structured manner.
+  positions:
+  - designation: Data Engineer
+    start: August 2019
+    end: November 2019
+    responsibilities:
+    - Hosted organization and course data on website using Stremlit and AWS EC2 Instance.
+    - Improved content delivery and decreased end-user latency by 60% of web application using Amazon CloudFront.
+    - Created organized lesson plans to teach simplified, fun computer coding to school kids with the help of block-based coding platforms such as Code.org and MIT Scratch.

@@ -1,0 +1,72 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# # filter buttons
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
+
+# your projects
+projects:
+- name: Clothing Similarity Understanding with Deep Learning
+  logo: /images/sections/projects/dl.png
+  #role: Contributor
+  timeline: "October 2021 - December 2021"
+  repo: https://github.com/AjinkyaPawale1/Clothing-Similarity-Using-DeepLearning # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Finding the most suitable clothing matches for the current selection and choice of clothing using existing pre-trained Deep Learning based feature extractors.
+  tags: ["InceptionV3", "VGG16", "ResNet50", "KNN", "Siamese Network"]
+
+- name: E-Commerce Recommendation System
+  logo: /images/sections/projects/ER.png
+  #role: Developer
+  timeline: "March 2021 - May 2021"
+  repo: https://github.com/AjinkyaPawale1/E-Commerce-Reccomendation-System
+  #url: ""
+  summary: Presented the workings of four different models under the collaborative filtering approach of recommendation systems.
+  tags: ["KNN", "Stochastic Gradient Descent", "ALS" , "Neural Collaborative Filtering"]
+
+- name: Chicago Crimes Data Analysis
+  logo: /images/sections/projects/CC.png
+  #role: Owner
+  timeline: "August 2020 - October 2020"
+  repo: https://github.com/AjinkyaPawale1/Chicago-Crime-Data-Analysis
+  summary: In this project the aim is to analyze the proportion of arrests made for a particular crime after it was reported to the Chicago Police Department.
+  tags: ["Logistic Regression", "Exploratory Data Analysis", "Predictive Analysis"]
+
+- name: Analyzing Stock Data
+  logo: /images/sections/projects/BD.jpg
+  #role: Owner
+  timeline: "August 2021 - November 2021"
+  repo: https://github.com/AjinkyaPawale1/Big-Data-I535-Project/tree/main/Downloads/Big-Data-I535-Project
+  summary: Analyzing stock data using MongoDB and Pyspark. Various ML models are evaluated to predict the stock prices.
+  tags: ["Pyspark", "MongoDB" , "Data Lake","Big Data"]
+
+- name: Credit Card Fraud Detection
+  logo: /images/sections/projects/XAI.png
+  #role: Owner
+  timeline: "March 2022 - May 2022"
+  repo: https://github.com/AjinkyaPawale1/Explainable-AI-Project
+  summary: The project tackles two problems- one is to eradicate the data imbalance between fraud and genuine transactions and the other is to provide interpretation of a black box model’s output to predict the possibility of fraud transactions.
+  tags: ["XAI", "Deep Learning" , "LIME","SHAP"]
+
+- name: Sentiment Analysis and Topic modelling
+  logo: /images/sections/projects/SMM.png
+  #role: Owner
+  timeline: "March 2022 - May 2022"
+  repo: https://github.com/AjinkyaPawale1/Sentiment-Analysis-and-Topic-Modeling
+  summary: Covers extraction and analysis of tweets. Setiments are checked for various target groups and promient topics are explored by using unsupervised learning methods.
+  tags: ["LDA", "NLP" , "VADER","BERT"]

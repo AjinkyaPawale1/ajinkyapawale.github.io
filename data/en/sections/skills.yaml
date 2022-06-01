@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Programming
+  logo: "/images/sections/skills/prog.png"
+  summary: "Capable of developing applications and algorithms in Python, Java and R"
+  #url: "https://kubernetes.io/"
+
+- name: Database
+  logo: "/images/sections/skills/db.jpg"
+  summary: "Strong proficieny in relational and object oriented databases along with query optimization"
+  #url: "https://golang.org/"
+
+- name: Cloud Computing
+  logo: "/images/sections/skills/cloud.jpg"
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+- name: Machine Learning
+  logo: "/images/sections/skills/ml.jpg"
+  summary: "Modeling and Evaluation of various algorithms such as Regression, Classification, Clustering, Decision Trees, Random Forest, XGboost, LightGBM, KNN"
+
+- name: Statistical Analysis
+  logo: "/images/sections/skills/stat.png"
+  summary: "Fundamental and practical knowledge of Hypothesis Testing, ANOVA, Chi-Square, Predictive/Descriptive Statistics, A/B Testing"
+
+- name: Deep Learning
+  logo: "/images/sections/skills/dl.jpg"
+  summary: "Modeling and Evaluation of various algorithms such as ANN, CNN, RNN, LSTM, GRU, GANs, Siamese Network"
